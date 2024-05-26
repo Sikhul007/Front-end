@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white; /* text color */
+    display: flex;  /*it means every item of this line will show in same  line  with x axis*/
+    align-items: center; /* it means every item will center with y axis */
+    justify-content: space-evenly; /* it means every items space same with x axis */
+} 
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+
+.logo{
+    background-image: url("asset/amazon-logo.png"); /* picture will be show when their height and width will be define */
+    height: 50px;
+    width: 100%;
+    background-size: contain; 
+    /* background-repeat: no-repeat; */
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border :hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+.add-frist{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    font-weight: 700;
+}
+
+.nav-search{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    outline: none;
+}
+
+.option{
+    height: 80%;
+    width: 6.5%;
+    background-color: #e6e6e6;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.input-search{
+    height: 80%;
+    width: 87%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    height: 80%;
+    width: 6.5%;
+    background-color: #febd68; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+
+.input-search:hover {
+    border: 2px solid #ee8e10;
+    border-radius: 4px;
+}
+
+.signin-frist{
+    font-size: 0.85rem;
+}
+
+.signin-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.order-frist{
+    font-size: 0.85rem;
+}
+
+.order-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.cart-icon{
+    height: auto;
+    font-size: 1.8rem;
+}
+
+.cart-frist{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.pannel{
+    height: 39px;
+    width: 100%;
+    color: white;;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+}
+
+.pannel-all{
+    display: flex;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.pannel-first{
+    margin-left: 5px;
+}
+
+.pannel-second{
+    display: flex;
+}
+
+.pannel-second p{
+    margin-left: 20px;
+}
+
+.hero-section{
+    background-image: url("asset/body.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-message{
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+}
+
+.hero-message a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.product-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+    padding-bottom: 1.7rem;
+}
+
+.box{
+    height: 420px;
+    width: 295px;
+    margin: 20px 0 0 0px;
+    background-color: white;
+}
+
+.heading{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-dp{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.box-dp p{
+    font-size: 0.7rem;
+}
+.box-img-d{
+    height: 100px;
+    width: 135px;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.box1 a{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 1rem;
+}
+
+.box1 a:hover{
+    text-decoration: none;
+    color: #f88c00;
+}
+
+.box-sp{
+    height: 100%;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.box-img{
+    height: 276px;
+    width:89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+
+.box-sp a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.box-sp a:hover{
+    text-decoration: none;
+    color: #f88c00;
+}
+
+.new-customer{
+    border: 0.7px solid black;
+    border-radius: 4px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    height: 125px;
+    width: 99.9%;
+    display: flex;
+    flex-direction: column; /* it means flex is only apply in column not in row .... in generell case in apply in row when we dont use "flex-direction: column"  use only "display: flex"; */
+    align-items: center;
+    justify-content: center;
+}
+
+.cus-b{
+    height: 28px;
+    width: 230px;
+    background-color: #ffd876;
+    border: 1px solid #ffd876;
+    border-radius: 4px;
+}
+
+.cus-p2 a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 0.8rem;
+}
+
+.cus-p2{
+    font-size: 0.8rem;
+}
+
+.footer-pannel1{
+    height: 49px;
+    width: 100%;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer-pannel2 {
+    height: 485px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;    
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.list {
+    flex: 0.5;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.list h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+}
+
+.list p {
+    margin-bottom: 5px;
+    margin-bottom: 1rem;
+}
+
+.back-list{
+    height: 1px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    color: #cccccc;
+    padding-top: 3rem;
+}
+
+.back-logo img{
+    height: 35px;
+    width: 100px;
+    padding-left: 20rem;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+}
+
+.back1{
+    height: 25px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #8D9096;
+    border-radius: 4px;
+    margin-left: 7px;
+    padding-right: 17px;
+}
+
+.back2{
+    height: 25px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #8D9096;
+    border-radius: 4px;
+    margin-left: 7px;
+    padding-right: 17px;
+}
+
+.back3{
+    height: 25px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #8D9096;
+    border-radius: 4px;
+    margin-left: 7px;
+    padding-right: 17px;
+}
+
+.f-icon{
+    padding-right: 10px;
+}
+
+.footer-pannel3{
+    background-color: #131a22;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 5px;
+    color: white;
+    
+}
+
+.last1{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 230px;
+}
+
+.footer-pannel3 ul{
+    width: 100%;
+    list-style: none;
+    padding-bottom: 2rem;
+    margin: 0;
+    font-size: 12px;
+    color: #999999;
+}
+
+
+.column {
+    padding: 0px 7px;
+    flex: 1 1 calc(100% / 7);
+    margin: 7px -5px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-pannel3 li{
+    margin: 10px;
+}
+
+.footer-pannel3 h3{
+    color: rgb(219, 214, 214);
+}
+
+.footer-pannel4{
+    height: 45px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    font-size: 14px;
+}
+
+.last2{
+    width: 800px;
+    display: flex;
+    padding: 0px 0px 0px 230px;
+    justify-content: center;
+    color: #dddddd;
+}
+
+.last2 p{
+    padding-left: 10px;
+}
+
+.last3{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    padding: 5px 0px 0px 230px;
+    justify-content: center;
+    color: #dddddd;
+}
+
