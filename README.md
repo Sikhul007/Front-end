@@ -1,1 +1,3 @@
-# Front-end
+<img width="960" alt="Screenshot 2024-05-29 213829" src="https://github.com/Sikhul007/Front-end/assets/123489513/94e1abf6-cb70-4e88-9022-0c308d527d4b"><img width="960" alt="Screenshot 2024-05-29 213902" src="https://github.com/Sikhul007/Front-end/assets/123489513/6714d42f-4b59-4ed5-bd41-c38442d4dbc5"><img width="960" alt="Screenshot 2024-05-29 214015" src="https://github.com/Sikhul007/Front-end/assets/123489513/1d9af252-3ac3-41c6-9db7-702cc2072824">
+<img width="960" alt="Screenshot 2024-05-29 213953" src="https://github.com/Sikhul007/Front-end/assets/123489513/e3c7fed8-6b48-4f08-96e4-3eba0c629ba2">
+<img width="960" alt="Screenshot 2024-05-29 213927" src="https://github.com/Sikhul007/Front-end/assets/123489513/0369e75c-f338-4dfd-8b70-14883f8a2656">
