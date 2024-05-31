@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #232323; */
+}
+
+.front {
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+
+.bg-picture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("asset/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.front .navbar {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo {
+    background-image: url("asset/logo.png");
+    height: 60px;
+    width: 160px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 0;
+    margin-left: 150px;
+}
+
+.navbar button {
+    background-color: #c11119;
+    color: white;
+    font-size: 14px;
+    padding: 9px 20px;
+    font-size: 0.85rem;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.heading{
+    color: white;
+    margin-top: 13rem;
+    text-align: center;
+}
+
+.heading .head1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.heading .para1{
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.heading .para2{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter-email {
+    height: 56px;
+    width: 370px;
+    border: 0.1px solid #BAB8B7;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    background-color: rgba(28, 27, 26, 0.6);
+    color: white;
+}
+
+.enter-email::placeholder {
+    color: #BAB8B7; 
+    font-weight: 700;
+    opacity: 1;
+}
+
+.enter-email:focus {
+    border: 0px solid white; 
+    box-shadow: 0 0 0 2px white; /* Creates an outer border effect */
+    outline: none; /* Remove default outline that gives in browser */
+}
+
+.get-start{
+    height: 56px;
+    width: 200px;
+    border: 1px solid #c11119;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    background-color: #c11119;
+    color: white;
+}
+
+.middle-A{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0px 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.middle-A1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left; /* it devided into 2 parts vartially  and it need to "position: relative" */
+    margin: 0;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-A1 .head2{
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+}
+
+.middle-A1 .para3{
+    font-size: 1.7rem;
+}
+
+.middle-A2 {
+    position: relative;
+    width: 550px; 
+    height: 400px; 
+    margin: 0 auto;
+    float: right;
+}
+
+.mA-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('asset/tv.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    z-index: 1; 
+}
+
+.mA-video {
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 71%;
+    height: 54%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.mA-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.middle-B{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 0px 400px 0px;
+    margin-top: 10px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.middle-B1{
+    width: 100%; 
+    height: 50%;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.mB-img1{
+    background-image: url("asset/phone.jpg");
+    height: 300px;
+    width: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 14rem;
+    position: absolute; /* for one picture add top of the another pciture */
+    z-index: 0;
+}
+
+.B-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10.8rem;
+    margin-left: 13rem;
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.box-img{
+    position: absolute;
+    background-image: url("asset/box-img.png");
+    height: 83px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 8px;
+}
+
+.para5 {
+    margin-left: 5rem;
+    margin-top: 1.2rem;
+}
+
+.para6 {
+    margin-left: 5rem;
+    color: blue;
+}
+
+.B-icon{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 13.5rem;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
+
+.middle-B2{
+    position: relative;
+    width: 100%; 
+    height: 50%;
+    margin: 0 auto;
+    float: right;
+}
+
+.middle-B2 .head3{
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+}
+
+.middle-B2 .para4{
+    font-size: 1.7rem;
+}
+
+
+
