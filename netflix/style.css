@@ -287,5 +287,79 @@
     font-size: 1.7rem;
 }
 
+.middle-C{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 0px;;
+    margin-top: 10px;
+}
+
+.middle-C1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    padding-left: 15rem;
+}
+
+.head4{
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.para7{
+    font-size: 1.5rem;
+    line-height: 30px; /* gap between one line to another line in one paragraph */
+}
+
+.middle-D{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 100px 0px;;
+    margin-top: 10px;
+}
+
+.middle-D1{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.mD-img{
+    background-image: url("asset/kid.png");
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:13rem;
+}
+
+
+.middle-D2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: right;
+    padding-right: 12rem;
+}
+
+.head5{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.para8{
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
 
 
