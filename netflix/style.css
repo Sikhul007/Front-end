@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: #232323; */
+    
+}
+
+body{
+    background-color: #232323;
 }
 
 .front {
@@ -141,14 +145,11 @@
 .middle-A1{
     height: 100%;
     width: 50%;
-    position: relative;
-    float: left; /* it devided into 2 parts vartially  and it need to "position: relative" */
-    margin: 0;
-    padding-top: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    float: left; /* it will devide the page into 2 part in horizontally */
+    padding-left: 11rem;
 }
 
 .middle-A1 .head2{
@@ -360,6 +361,119 @@
     font-size: 1.5rem;
     line-height: 30px;
 }
+
+.middle-E{
+    height: 855px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 80px 0px;;
+    margin-top: 10px;
+}
+
+.middle-E1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.middle-E2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mE-box{
+    height: 4.5rem;
+    width: 56rem;
+    background-color: #414141;
+    padding-left: 20px;
+    color: white;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.mE-box p{
+    font-size: 3rem;
+    padding-right: 25px;
+}
+
+.mE-box:hover{
+    background-color: #4c4b4b;
+}
+
+.middle-E3{
+    margin-top: 35px;
+}
+
+.para9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+footer{
+    height: 380px;
+    width: 100%;
+    background-color: black;
+    padding: 60px 0px;
+    margin-top: 10px;
+}
+
+.footer-1{
+margin-left: 280px;
+margin-bottom: 20px;
+}
+
+.footer-1 a{
+    color: #b3b3b3;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-B{
+    height: 100%;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #b3b3b3;
+}
+
+.f-box2 a{
+    display: flex; 
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #b3b3b3;
+}
+
+.footer-3{
+    margin-left: 280px;
+    color: #b3b3b3;
+}
+
+.footer-selection{
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    width: 120px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+
 
 
 

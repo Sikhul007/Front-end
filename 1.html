@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradient Shadow Example</title>
     <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-body, html {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
 
-.shadow-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+      .shadow-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
 
-.shadow-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire container */
-}
+      .shadow-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the entire container */
+      }
 
-.shadow-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
-    pointer-events: none;
-}
-
-
+      .shadow-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.8) 0%,
+          rgba(0, 0, 0, 0.5) 50%,
+          rgba(0, 0, 0, 0.8) 100%
+        );
+        pointer-events: none;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="shadow-container">
-        <img src="bg-img.jpeg" alt="Content" class="shadow-image">
-        <div class="shadow-overlay"></div>
+      <img src="bg-img.jpeg" alt="Content" class="shadow-image" />
+      <div class="shadow-overlay"></div>
     </div>
-</body>
+  </body>
 </html>
